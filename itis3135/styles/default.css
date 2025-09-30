@@ -1,5 +1,6 @@
 body{
     background-color: coral;
+    text-align: center;
 }
 
 nav > a {
@@ -49,10 +50,10 @@ main {
 }
 
 main img {
-    width: 631px;
-    height: 631px;
+    width: 250px;
+    height: 250px;
     border-radius: 10%;
-    aspect-ratio: 631/631;
+    aspect-ratio: 431/431;
 }
 
 i{
@@ -62,6 +63,9 @@ i{
 
 ul {
     list-style-type: square;
-    text-align: left;
-    display: inline-block;
+    text-align: center;
+    
+}
+a:hover{
+    color: rgb(238, 228, 160);
 }
