@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/default.css">
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+        :root{
+            --bg-1: #f6fbff;
+            --bg-2: #f7fff4;
+            --card: rgba(255,255,255,0.75);
+            --accent: #67c4d9;
+            --accent-2: #ffd8a8;
+            --muted: #51606a;
+            --radius: 12px;
+        }
+
+        *{box-sizing:border-box}
+
+        html,body{
+            height:100%;
+            margin:0;
+            font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color:var(--muted);
+            background: greenyellow;
+            -webkit-font-smoothing:antialiased;
+            -moz-osx-font-smoothing:grayscale;
+            line-height:1.6;
+            padding:2rem;
+        }
+
+        /* page container feel */
+        header{
+            text-align:center;
+            margin-bottom:1.25rem;
+        }
+        header h1{
+            margin:0;
+            font-weight:600;
+            color:color-mix(in srgb, var(--accent) 65%, black 10%);
+            font-size:1.9rem;
+            letter-spacing:0.4px;
+            text-shadow: 0 2px 6px rgba(103,196,217,0.12);
+        }
+
+        /* main content card */
+        main{
+            max-width:900px;
+            margin:0 auto 2rem auto;
+            background:var(--card);
+            border-radius:var(--radius);
+            padding:1.6rem;
+            box-shadow: 0 8px 24px rgba(18,38,63,0.06);
+            border: 1px solid rgba(255,255,255,0.6);
+            backdrop-filter: blur(6px);
+        }
+
+        /* headings and paragraphs */
+        main h2{
+            margin-top:0;
+            color: color-mix(in srgb, var(--accent) 45%, black 25%);
+            font-size:1.4rem;
+            font-weight:600;
+        }
+        main p{
+            margin:0.6rem 0 0;
+            font-size:1rem;
+            color:var(--muted);
+            max-width:70ch;
+        }
+
+        /* footer */
+        footer{
+            max-width:900px;
+            margin:0 auto;
+            text-align:center;
+            padding:1rem;
+            color:var(--muted);
+            font-size:0.9rem;
+        }
+        footer a{
+            color:var(--accent);
+            text-decoration:none;
+            font-weight:500;
+        }
+        footer a:hover{ text-decoration:underline; }
+
+        /* validation images smaller and subtle */
+        #validation_link_html img,
+        #validation_link_css img{
+            width:76px;
+            height:27px;
+            opacity:0.85;
+            filter:grayscale(20%);
+            vertical-align:middle;
+            margin:0 6px;
+            border-radius:4px;
+            box-shadow: 0 3px 8px rgba(2,6,23,0.06);
+        }
+
+        /* responsive adjustments */
+        @media (max-width:600px){
+            body{ padding:1rem; }
+            header h1{ font-size:1.4rem; }
+            main{ padding:1rem; border-radius:10px; }
+            #validation_link_html img,
+            #validation_link_css img{ width:64px; height:23px; }
+        }
+        u{
+            text-decoration: underline;
+            text-decoration-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Hobby Site</h1>
+       <nav>
+            <a href="projects.html"> Projects</a>
+            ||
+            <a href="hobby/gameing.html">Hobby Site</a>
+            ||
+            <a href="stuff/@hee HEE.htm">CRAPPY Site</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to my Hobby Site</h2>
+            <a style="text-decoration-color:green;"href="gameing.html/Who">Who</a>
+            <p>This is a page about my hobbies, particularly gaming. I enjoy playing a variety of video games across different genres.
+             Gaming allows me to unwind and immerse myself in different worlds and stories.</p>
+
+        </section>
+
+        <section>
+            <h2>Who</h2>
+            <img src="../images/Marcus_webpic.png" alt="Marcus Ezell" style="width: 150px; height:240px; border-radius:10%">
+            <p>I'm Marcus Ezell. I was born in North Carolina and have lived here for most of my life. I'm currently 21 years old.
+                I moved to another school during my middle school years for better education.
+            </p>
+        </section>
+
+        <section>
+            <h2>What</h2>
+            <p>I major in Computer Science and concentrate in AI, Robotics, and gameing.</p>
+            <a href="../../index.html">Homepage</a>
+        </section>
+
+        <section>
+            <h2>When</h2>
+            <p>I enjoy the Autumn season due to the chill season, special events such as thanksgiving, 
+                and I get to wear hoodies more often.</p>
+        </section>
+
+        <section>
+            <h2>Where</h2>
+            <p>The best locations I've been to were Tenessee, New Bern, and Myrtle Beach.
+                I love being in the mountains, the beach, and seeing old town facilities that
+                hold history of their whereabouts such as how Pepsi was created.
+            </p>
+        </section>
+
+        <section>
+            <h2>How</h2>
+        </section>
+
+        <section>
+            <h2>Why</h2>
+        </section>
+        
+        <section>
+            <h2>AI Prompts</h2>
+            <p>"make styling choices for a chill and laid back webpage for my styling tag."</p>
+        </section>
+    </main>
+    <footer>
+        <p>Designed by <a href="ezellenterprises.co/"> Ezell Enterprises, Co.</a> &copy;2025</p>
+
+    <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
+        <img style="border:0;width:88px;height:31px"
+            src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
+    </a>
+
+    <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
+        <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!">
+    </a>
+
+    <script>
+        document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>
+    </footer>
+</body>
+</html>
