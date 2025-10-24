@@ -1,0 +1,28 @@
+:root {
+    --fire-brick: hsla(2, 62%, 45%, 1);
+    --chocolate-cosmos: hsla(357, 75%, 19%, 1);
+    --flax: hsla(51, 86%, 72%, 1);
+    --hunyadi-yellow: hsla(36, 72%, 56%, 1);
+    --dark-slate-gray: hsla(193, 34%, 30%, 1);
+}
+
+/* https://coolors.co/visualizer/b92f2b-540c0f-f5e379-e09f3e-335c67 */
+p {
+    font-size: 20px;
+    font-family: fantasy;
+    color: var(--fire-brick)
+}
+
+body {
+    margin: 20px;
+    background-color: var(--flax);
+    font-family: fantasy;
+    color: rgb(155, 117, 68);
+}
+
+h1 {
+    color: var(--chocolate-cosmos);
+}
+h2 {
+    color: var(--fire-brick);
+}
